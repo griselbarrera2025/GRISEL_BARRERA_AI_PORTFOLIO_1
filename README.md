@@ -1,45 +1,47 @@
 Grisel-Barrera-HCC-AI/
-├── README.md
+├── README.md                        # Fixed top-level README with working links
+├── requirements.txt                  # Core dependencies
+├── .gitignore                        # Ignore data/outputs/venvs/etc.
+├── repo_fix_commands.sh              # Script to move/rename folders
+│
 ├── NLP-ITAI2373/
 │   ├── Text-Processing-Project/
 │   │   ├── preprocessing.ipynb
 │   │   ├── README.md
 │   │   ├── sample_data/
 │   │   └── outputs/
-│   └── Sentiment-And-Emotion-Analysis/
-│       ├── classifier.py
-│       ├── README.md
-│       └── results/
+│   │
 │   ├── Text-Representation/
-│   │   ├── tfidf_bow_embeddings.ipynb      # Code for BoW, TF-IDF, Word Embeddings
-│   │   ├── README.md                       # Based on the Text Representation README I wrote
+│   │   ├── tfidf_bow_embeddings.ipynb
+│   │   ├── README.md
 │   │   ├── sample_data/
 │   │   └── outputs/
+│   │
 │   ├── Intro-to-Audio-and-Preprocessing/
-│   │   ├── audio_preprocessing.ipynb       # Code for audio loading, cleaning, MFCCs
+│   │   ├── audio_preprocessing.ipynb
 │   │   ├── README.md
 │   │   ├── sample_audio/
 │   │   └── outputs/
-│   ├── Sentiment-and-Emotion-Analysis/
-│   │   ├── sentiment_emotion.py            # Combined sentiment + emotion model
+│   │
+│   ├── Sentiment-and-Emotion-Analysis/     # Only this name — no duplicates
+│   │   ├── sentiment_emotion.py
 │   │   ├── README.md
 │   │   └── results/
-│   ├── Syntax-Parsing-and-Semantic-Analysis/
-│   │   ├── syntax_semantic.py              # POS tagging, parsing, NER
-│   │   ├── README.md
-│   │   └── outputs/
-│   └── Part-of-Speech-Tagging/
-│       ├── classifier.py
+│   │
+│   └── Syntax-Parsing-and-Semantic-Analysis/
+│       ├── syntax_semantic.py
 │       ├── README.md
-│       └── results/
-├── Text-Classification-and-NER/
+│       └── outputs/
+│
+├── AI-at-the-Edge-IoT-ITAI3377/
 │   └── SmartSensorSystem/
 │       ├── iot_model.py
 │       ├── README.md
 │       └── sensor_data/
-└── Presentation/
-    └── Pf_GriselBarrera_ITAI2376.pdf
-
+│
+├── DeepLearning-ITAI2376/
+│   └── Presentation/
+│       └── Pf_GriselBarrera_ITAI2376.pdf
 
 # Grisel Barrera – Applied AI & Robotics Portfolio
 
